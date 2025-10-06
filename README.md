@@ -136,5 +136,5 @@ To set up and run the web app locally:
 
 ## Final Status
 
-- Abstractive summarizer - Functional, but length control limited  
+- Text summarizer - Functional, but length control limited  
 - Learned valuable debugging, dependency management, and optimization skills
