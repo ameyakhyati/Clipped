@@ -89,7 +89,41 @@ This document outlines the step-by-step process of building a **Clipped** - _a t
 - Added a small **JavaScript loader script** in the HTML file to indicate that the summary was being generated until the output rendered.
 <br/>
 
-- **Frontend Styling:** Improved the appearance by adjusting the **CSS** formatting and layout for a better user experience.-
+- **Frontend Styling:** Improved the appearance by adjusting the **CSS** formatting and layout for a better user experience.
+
+## Usage Instructions
+
+To set up and run the text summarizer web app locally:
+
+- Clone the repository to your local host
+``` bash
+  git clone https://github.com/ameyakhyati/Clipped.git
+  cd Clipped
+```
+<br/>
+
+- Install the required dependencies using the following command
+``` bash
+  pip install -r requirements.txt
+```
+<br/>
+
+- Run the flask web app 
+``` bash
+  python app.py
+```
+<br/>
+
+- Navigate to the provided URL to access the web app 
+``` bash
+  http://127.0.0.1:5000
+```
+<br/>
+
+#### Note : Flask runs the web app on port 5000 by default, but you can change it to any available port if needed. To do so, please add the port parameter in app.py 
+``` bash
+  app.run(debug=True, port={port number})
+```
 
 ## Documentation & Learnings
 
