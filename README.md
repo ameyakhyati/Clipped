@@ -93,7 +93,7 @@ This document outlines the step-by-step process of building a **Clipped** - _a t
 
 ## Usage Instructions
 
-To set up and run the text summarizer web app locally:
+To set up and run the web app locally:
 
 - Clone the repository to your local host
 ``` bash
